@@ -1,0 +1,152 @@
+
+/* Main Styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Nav */
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#nav .links {
+    display: flex;
+}
+
+#nav .links li {
+    margin-right: 20px;
+}
+
+#nav .icons {
+    display: flex;
+}
+
+#nav .icons .alt {
+    margin-left: 10px;
+}
+
+/* Main */
+
+#main {
+    padding: 20px 0;
+}
+
+.post {
+    margin-bottom: 40px;
+}
+
+.post .date {
+    font-size: 0.8em;
+    color: #777;
+}
+
+.post h2 {
+    margin-top: 10px;
+}
+
+.post p {
+    color: #555;
+}
+
+.image {
+    display: block;
+    margin: 10px 0;
+}
+
+.special {
+    margin-top: 20px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.contact h3 {
+    font-size: 1em;
+}
+
+.contact a {
+    color: #fff;
+}
+
+.icons.alt {
+    list-style: none;
+    padding: 0;
+}
+
+.icons.alt li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 768px) {
+    #wrapper {
+        padding: 0 10px;
+    }
+
+    #nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav .links {
+        margin-top: 10px;
+    }
+
+    #nav .icons {
+        margin-top: 10px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact section {
+        margin: 10px 0;
+    }
+}
